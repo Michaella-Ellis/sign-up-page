@@ -1,0 +1,76 @@
+html {
+  box-sizing: border-box;
+  color: white;
+  
+}
+
+@media only screen and (max-width: 480px) {
+  .info-form {
+    display: none;
+  }
+  .register-container {
+    width: 500px
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.register-container {
+  display: grid;
+  grid-template-columns: 50% 40%;
+  grid-template-rows: 625px ;
+  justify-content: center;
+  max-width: 1050px;
+  padding: 5px;
+  margin: 5% auto 0;
+  text-align: center;
+  
+ 
+}
+
+.picture {
+  background-color: #87ab69;
+  
+}
+
+.info-form {
+  background-image: url("https://images.unsplash.com/photo-1531771686035-25f47595c87a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80");
+  background-size: cover;
+  
+}
+
+.enter-info {
+  display: grid;
+  
+}
+
+.register {
+  justify-items: center;
+}
+
+.register:hover {
+  background-color: #4b6043;
+  color: white;
+}
+
+#first-name, #last-name, #email, #psw{
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 70%;
+  border: 1px solid black;
+  outline: none;
+}
+
+button {
+  color: #4B6043;
+  width: 30%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
